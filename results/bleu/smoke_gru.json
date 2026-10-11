@@ -1,0 +1,31 @@
+{
+ "run": "smoke_gru",
+ "params": 64669696,
+ "bleu": 0.0,
+ "signature": "BLEU = 0.00 0.0/0.0/0.0/0.0 (BP = 0.000 ratio = 0.103 hyp_len = 4 ref_len = 39)",
+ "sacrebleu_version": "2.6.0",
+ "n_test": 2,
+ "cfg": {
+  "model": "gru",
+  "d_model": 512,
+  "enc_layers": 4,
+  "dec_layers": 4,
+  "enc_hidden": 768,
+  "dec_hidden": 512,
+  "attn_dim": 512,
+  "dropout": 0.1,
+  "warmup": 4000,
+  "label_smoothing": 0.1,
+  "tokens_per_batch": 2048,
+  "accum_steps": 1,
+  "max_steps": 4,
+  "save_every": 80,
+  "val_every": 80,
+  "val_batches": 12,
+  "log_every": 20,
+  "amp": false,
+  "seed": 0,
+  "target_val_loss": 6.0,
+  "pad_idx": 3
+ }
+}

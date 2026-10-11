@@ -1,0 +1,8 @@
+# checkpoints, data caches, venv
+checkpoints/
+data/sp_train.*
+data/*.pt
+data/*.npy
+__pycache__/
+*.pyc
+/tmp/

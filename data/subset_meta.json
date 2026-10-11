@@ -1,0 +1,8 @@
+{
+ "n_total": 4508785,
+ "n_sub": 500000,
+ "seed": 1234,
+ "dataset": "wmt/wmt14:de-en",
+ "validation": "newstest2013 (3000)",
+ "test": "newstest2014 (3003)"
+}

@@ -1,0 +1,19 @@
+d_model: 512
+n_layers: 6
+d_ff: 2048
+dropout: 0.1
+warmup: 4000
+label_smoothing: 0.1
+tokens_per_batch: 2048
+accum_steps: 1
+max_steps: 100
+save_every: 20
+val_every: 50
+val_batches: 8
+log_every: 10
+amp: false
+target_val_loss: 9.5
+pad_idx: 3
+seeds: [0, 1]
+pos_encodings: [sinusoidal, none, learned]
+heads: [1, 4, 8]

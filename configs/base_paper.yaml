@@ -1,0 +1,20 @@
+# Paper-faithful base config (target). CPU-demo run overrides budget below.
+model: transformer
+d_model: 512
+n_heads: 8
+n_layers: 6
+d_ff: 2048
+dropout: 0.1
+pos_encoding: sinusoidal
+warmup: 4000
+label_smoothing: 0.1
+tokens_per_batch: 25000   # paper target: ~25k src + 25k tgt tokens per step
+accum_steps: 1
+max_steps: 100000         # paper scale (~100k steps); demo overrides to smaller
+save_every: 5000
+val_every: 1000
+val_batches: 20
+log_every: 25
+amp: true
+seed: 0
+target_val_loss: 4.5

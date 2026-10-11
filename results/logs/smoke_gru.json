@@ -1,0 +1,50 @@
+{
+ "log": [
+  {
+   "step": 1,
+   "lr": 1.746928107421711e-07,
+   "train_loss": 10.399068832397461,
+   "tokens": 973,
+   "tokens_per_sec": 35.91482423264634,
+   "elapsed_s": 27.117907762527466,
+   "rss_gb": 3.728232448
+  },
+  {
+   "step": 2,
+   "lr": 3.493856214843422e-07,
+   "train_loss": 10.410332679748535,
+   "tokens": 981,
+   "tokens_per_sec": 55.895259772468414,
+   "elapsed_s": 44.68477511405945,
+   "rss_gb": 3.90510592
+  },
+  {
+   "step": 3,
+   "lr": 5.240784322265133e-07,
+   "train_loss": 10.39855670928955,
+   "tokens": 915,
+   "tokens_per_sec": 62.38960263286301,
+   "elapsed_s": 59.384685039520264,
+   "rss_gb": 3.840868352
+  },
+  {
+   "step": 4,
+   "lr": 6.987712429686844e-07,
+   "train_loss": 10.39751148223877,
+   "tokens": 985,
+   "tokens_per_sec": 33.436424030945794,
+   "elapsed_s": 88.86923694610596,
+   "rss_gb": 4.101517312,
+   "val_loss": 10.40184489885966
+  }
+ ],
+ "time_to_target_loss": null,
+ "peak_rss_gb": 4.101517312,
+ "rss0_gb": 2.09676288,
+ "total_tokens": 3854,
+ "total_time_s": 164.4714231491089,
+ "checkpoints": [
+  "checkpoints/smoke_gru_step4.pt"
+ ],
+ "avg_checkpoint": "checkpoints/smoke_gru_avg5.pt"
+}
